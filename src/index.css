@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "heading";
+  src: url("./assets/font/SugarMagicPersonalUseOnly-jEMYO.otf")
+    format("opentype");
+}
