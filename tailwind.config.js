@@ -5,15 +5,8 @@ export default {
     extend: {
       fontFamily: {
         heading: ["heading"],
-      },
-      animation: {
-        pulse: "pulse 5s infinite",
-      },
-      keyframes: {
-        pulse: {
-          "0%": { backgroundColor: "black" },
-          "100%": { backgroundColor: "red" },
-        },
+        bree: ["Bree Serif", "serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
