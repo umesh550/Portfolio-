@@ -10,7 +10,7 @@ function App() {
           "linear-gradient(to bottom right,#EEE,#E2EDEE, #DFECED,#D9FFF9, #D8FFF8)",
       }}
     >
-      <section className="h-lvh">
+      <section className="">
         <Header />
         <Hero />
       </section>
