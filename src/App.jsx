@@ -1,6 +1,6 @@
-import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
         <Header />
         <Hero />
       </section>
-      <section className="h-lvh">About</section>
+      <section className="h-lvh">
+        <About />
+      </section>
       <section className="h-lvh">Skills</section>
       <section className="h-lvh">Projects</section>
       <section className="">footer</section>

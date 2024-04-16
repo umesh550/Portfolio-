@@ -5,6 +5,19 @@ import { IoMdMoon } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 
 const Header = () => {
+  window.onscroll = function () {
+    myFunction();
+  };
+
+  function myFunction() {
+    if (document.documentElement.scrollTop > 50) {
+      document.querySelector(".nav__list").style.background =
+        "linear-gradient(#19e0bdcc, #6db9efcc)";
+    } else {
+      document.querySelector(".nav__list").style.background = "";
+    }
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
@@ -16,7 +29,7 @@ const Header = () => {
       }}
     >
       <nav className="fixed z-50 w-full font-bree">
-        <div className="flex items-center mx-3 lg:mx-10 rounded-full my-3 px-6 py-2.5 justify-between">
+        <div className="flex items-center nav__list mx-3 lg:mx-10 rounded-full my-3 px-6 py-2.5 justify-between">
           <p className="font-heading text-2xl">
             Portfolio<span className="font-mono">.</span>
           </p>

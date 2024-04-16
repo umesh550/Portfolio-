@@ -25,7 +25,7 @@ const Hero = () => {
               A Passionate web developer skilled in React js, eager for dynamic
               projects.
             </p>
-            <button className="mt-3 lg:px-5 lg:py-3 transition-all px-3 py-2 text-sm lg:text-base bg-blue-500 hover:bg-blue-600 rounded-full text-white font-semibold">
+            <button className="mt-3 lg:px-5 lg:py-3 transition-all px-3 py-2 text-sm lg:text-base bg-blue-500 hover:bg-blue-600 rounded-full text-white font-medium">
               See my work
             </button>
           </center>
