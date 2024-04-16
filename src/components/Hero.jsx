@@ -21,9 +21,10 @@ const Hero = () => {
             <p className="font-heading lg:text-7xl 2xl:text-8xl text-3xl text-[#36B29D]">
               Frontend Developer
             </p>
-            <p className=" text-sm lg:text-lg pt-2 text-[#2F6057]">
-              A Passionate web developer skilled in React js, eager for dynamic
-              projects.
+            <p className="font-roboto font-semibold text-sm lg:text-lg pt-2 text-[#2F6057]">
+              A passionate web developer skilled in React.js,
+              <br /> I&apos;m enthusiastically seeking dynamic projects to bring
+              to life.
             </p>
             <button className="mt-3 lg:px-5 lg:py-3 transition-all px-3 py-2 text-sm lg:text-base bg-blue-500 hover:bg-blue-600 rounded-full text-white font-medium">
               See my work

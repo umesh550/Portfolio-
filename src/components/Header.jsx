@@ -27,6 +27,7 @@ const Header = () => {
         delay: 0.5,
         ease: [0, 0.71, 0.2, 1.01],
       }}
+      id="home"
     >
       <nav className="fixed z-50 w-full font-bree">
         <div className="flex items-center nav__list mx-3 lg:mx-10 rounded-full my-3 px-6 py-2.5 justify-between">
@@ -38,21 +39,23 @@ const Header = () => {
               <a href="#home">Home</a>
             </p>
             <p>
-              <a href="#home">About</a>
+              <a href="#about">About</a>
             </p>
             <p>
-              <a href="#home">Skills</a>
+              <a href="#skills">Skills</a>
             </p>
             <p>
-              <a href="#home">Projects</a>
+              <a href="#projects">Projects</a>
             </p>
             <p>
-              <a href="#home">Contact</a>
+              <a href="#contact">Contact</a>
             </p>
           </div>
           <div className="flex items-center justify-between space-x-3">
             <div className="p-1.5 rounded-full hover:bg-gray-300 transition-all ease-in-out">
-              <FaLinkedinIn size={20} />
+              <a href="https://www.linkedin.com/in/umesh-tiruvalluru-03b0a21b7/">
+                <FaLinkedinIn size={20} />
+              </a>
             </div>
             <div className="p-1.5 rounded-full hover:bg-gray-300 transition-all ease-in-out">
               <FaGithub size={20} />

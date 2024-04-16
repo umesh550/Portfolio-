@@ -4,10 +4,21 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="my-10 ">
+    <div id="about" className="my-10 px-5">
       <p className=" text-3xl mb-10 font-bree text-center font-bold">About</p>
-      <div>
-        <img src={umesh} alt="" className="overflow-hidden w-64 rounded-2xl" />
+      <div className="lg:flex block justify-between mx-auto lg:space-x-12 max-w-3xl">
+        <img src={umesh} alt="" className="object-contain w-72 rounded-2xl" />
+
+        <div className="my-6">
+          <p className="font-heading text-2xl">Lorem ipsum</p>
+          <p className=" font-roboto leading-8">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
+          </p>
+          <p></p>
+        </div>
       </div>
     </div>
   );
