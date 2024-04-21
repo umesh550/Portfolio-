@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Hero />
       </section>
-      <section className="h-lvh">
+      <section className="min-h-lvh">
         <About />
       </section>
       <section className="h-lvh">
