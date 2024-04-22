@@ -6,8 +6,12 @@ const About = () => {
   return (
     <div id="about" className="my-10 px-5">
       <p className=" text-3xl mb-10 font-bree text-center font-bold">About</p>
-      <div className="lg:flex block justify-between mx-auto lg:space-x-12 max-w-3xl">
-        <img src={umesh} alt="" className="object-contain w-72 rounded-2xl" />
+      <div className="lg:flex justify-between mx-auto lg:space-x-12 max-w-3xl p-2">
+        <img
+          src={umesh}
+          alt=""
+          className="max-w-72 mx-auto md:w-72 w-full rounded-full"
+        />
 
         <div className="my-6">
           <p className="font-heading text-2xl">Lorem ipsum</p>
