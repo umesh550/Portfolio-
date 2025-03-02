@@ -4,8 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 
 // Redirect functionality
-export const newPortfolioUrl =
-  "https://portfolio-main-9w5s4rm7c-umesh-tiruvalluru-s-projects.vercel.app/"; // Replace with your actual new portfolio URL
+export const newPortfolioUrl = "https://umesh-tiruvalluru.vercel.app/"; // Replace with your actual new portfolio URL
 let countdownSeconds = 10;
 
 function startCountdown() {
